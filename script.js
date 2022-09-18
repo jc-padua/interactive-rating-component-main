@@ -16,7 +16,7 @@ function displayThankyou() {
             const rateValue = rate.value;                                        //Get the value of the rate-num
             rateText.textContent = rateText.textContent.replace('0', rateValue); //Display the value to thankyou state
             thankyouState.style.zIndex = '1';                                    //Then Display the thank you state
-            thankyouState.style.visibility = 'visible'
+            thankyouState.style.visibility = 'visible';
         }
     })
 }
